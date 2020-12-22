@@ -1,5 +1,5 @@
 # crud-restful-api-test
--there are total of 6 apis
+-there are total of 7  apis
 
 - #addProduct 
 -this api is insert data to product table
