@@ -5,7 +5,7 @@ import com.mukham.crudrestfulapi.model.request.OrderRequest;
 import com.mukham.crudrestfulapi.model.response.CheckOrderResponse;
 import com.mukham.crudrestfulapi.model.response.OrderResponse;
 import com.mukham.crudrestfulapi.model.response.Status;
-import com.mukham.crudrestfulapi.service.CustomerOrderService;
+import com.mukham.crudrestfulapi.service.CustomerOrderServiceImp;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +19,7 @@ import java.util.List;
 public class CustomerOrderController {
 
     @Autowired
-    CustomerOrderService customerOrderService;
+    CustomerOrderServiceImp customerOrderService;
 
     private static final Logger logger = LogManager.getLogger(CustomerOrderController.class);
 
