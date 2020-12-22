@@ -9,10 +9,11 @@
 -this api is check customer order information and calculate total value
 - #confirmOrder 
 -this api is confirm customer information
-- customer information save to customer table
-- order information save to order table
-- orderitem information save to orderitem table
+- and customer information save to customer table
+- and order information save to order table
+- and orderitem information save to orderitem table
 - #getOrderDetail
 -this api is retrieve order details with order number
 - #updateStatus 
--this api is update order status with order number #deleteProduct -this api is delete product data with product id
+-this api is update order status with order number
+- #deleteProduct -this api is delete product data with product id
